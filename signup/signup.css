@@ -1,0 +1,51 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    }
+.logo img{
+    max-width: 50%;
+}
+
+
+.form-container {
+    margin: 6% auto;
+    display: block;
+    width:500px;
+    text-align:center;
+      }
+      
+.form-container input[type=text], input[type=password]{
+    width: 60%;
+    margin-bottom:10px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+      }
+
+ .form-container button{
+        width: 60%;
+        margin-bottom:10px;
+        padding: 12px 20px;
+        color: white;
+        display: inline-block;
+        border: 1px solid ;
+        background-color: #3BA5FC;
+        border-radius: 6px;
+        box-sizing: border-box;
+    
+}
+.forgot_pswd a{
+    font-size: small;
+    color: #3BA5FC;
+}
+.Dont_acc p{
+    font-size: small;
+}
+.Dont_acc a{
+    color: #3BA5FC;
+}

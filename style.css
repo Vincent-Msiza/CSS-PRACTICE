@@ -3,6 +3,7 @@ list-style: none;
 text-decoration: none;
 margin: 0;
 padding: 0px;
+font-family: 'Montserrat', sans-serif;
 }
 
 .nav{
@@ -24,27 +25,43 @@ padding: 0px;
 }
 
 .menu-items li a {  
+    font-size: 14px;
     display: block; 
     color: white;  
     text-align: center;  
     padding: 10px 20px;  
   }  
+  .menu-items li a:Hover {  
+   color: #3BA5FC; 
+   transition: 0.3s;
+  }
+  .menu-items .active{
+    font-weight: bolder;
+  }
 
 .sign-btns li{
     float: left;
 }
 
 .sign-btns li a {  
+    font-size: 14px;
     display: block;  
     color: white;  
     text-align: center;  
     padding: 10px 20px;  
   } 
+  .sign-btns li a:hover {  
+   color: #176EB5 ; 
+  } 
 
 .sign-btns .sign-up {
     background-color:#3BA5FC;
     border-radius: 6px;
-
 }
+.sign-btns .sign-up:hover {
+   padding: 12px 22px;
+   transition: 0.3s ;
+}
+
 
 
