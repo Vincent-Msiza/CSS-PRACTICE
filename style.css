@@ -1,0 +1,50 @@
+*{
+list-style: none;
+text-decoration: none;
+margin: 0;
+padding: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000A4B;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+   
+}
+.logo img{
+    display: block; 
+    max-width: 50%;
+}
+
+.menu-items li{
+    float: left;
+}
+
+.menu-items li a {  
+    display: block; 
+    color: white;  
+    text-align: center;  
+    padding: 10px 20px;  
+  }  
+
+.sign-btns li{
+    float: left;
+}
+
+.sign-btns li a {  
+    display: block;  
+    color: white;  
+    text-align: center;  
+    padding: 10px 20px;  
+  } 
+
+.sign-btns .sign-up {
+    background-color:#3BA5FC;
+    border-radius: 6px;
+
+}
+
+
